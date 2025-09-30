@@ -1,0 +1,40 @@
+###############################
+# MR x TGR compatch on_actions #
+###############################
+
+# Run both at game start (scripted init) and after lobby (players set)
+on_game_start = {
+	on_actions = { mr_tgr_fix_incompatible_laws }
+}
+on_game_started_after_lobby = {
+	on_actions = { mr_tgr_fix_incompatible_laws }
+}
+
+mr_tgr_fix_incompatible_laws = {
+	effect = {
+		# Centralization conflicts: move off Economic Decentralization when it's not permitted
+		every_country = {
+			limit = { has_law = law_type:law_economic_decentralism }
+			# Prefer Local Autonomies; fallback to Administrative Decentralism variant if needed
+			if = {
+				limit = { can_enact_law = law_type:law_local_autonomies }
+				activate_law = law_type:law_local_autonomies
+			}
+			else_if = {
+				limit = { can_enact_law = law_type:law_administrative_decentralism }
+				activate_law = law_type:law_administrative_decentralism
+			}
+		}
+
+		# Canton System conflicts: replace with Mercantilism for countries that can't retain it
+		every_country = {
+			limit = { has_law = law_type:law_canton_system }
+			if = {
+				limit = { NOT = { can_retain_current_law = yes } }
+				activate_law = law_type:law_mercantilism
+			}
+		}
+	}
+}
+
+

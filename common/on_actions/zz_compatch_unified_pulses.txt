@@ -147,3 +147,12 @@ on_yearly_pulse_country = {
 		gain_ideology_pol.1
 	}
 }
+
+# Stubs to satisfy Morgenrote scripted effects expecting these on_actions
+dubois_on_yearly_pulse_special_fossil_events = {
+	# Intentionally empty container to avoid missing on_action errors
+}
+
+dubois_on_monthly_pulse_paleontological_expedition = {
+	# Intentionally empty container to avoid missing on_action errors
+}

@@ -1,0 +1,21 @@
+###############################
+# MR x TGR compatch traits    #
+###############################
+
+# Placeholders to satisfy has_discrimination_trait references in TGR
+
+# Used in religion context checks
+christian = {
+	type = religion
+}
+
+# Used in culture context checks
+han_chinese = {
+	type = culture
+}
+
+east_slavic = {
+	type = culture
+}
+
+

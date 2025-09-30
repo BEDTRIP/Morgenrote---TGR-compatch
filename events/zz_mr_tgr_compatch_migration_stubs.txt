@@ -1,0 +1,16 @@
+namespace = migration_agreement
+
+# Stub event referenced by treaty article to prevent missing-event errors
+migration_agreement.10 = {
+	type = country_event
+	placement = root
+	hidden = yes
+
+	duration = 1
+
+	immediate = { }
+
+	option = { name = migration_agreement.10.a }
+}
+
+
