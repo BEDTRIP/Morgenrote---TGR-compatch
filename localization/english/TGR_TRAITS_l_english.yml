@@ -1,5 +1,5 @@
 l_english:
- trait_social_agitator:0 "Social Agitator"
- trait_social_agitator_desc:0 "This character stirs public sentiment and rallies support for social causes, increasing radical activity."
- trait_revolutionary_agitator:0 "Revolutionary Agitator"
- trait_revolutionary_agitator_desc:0 "This character actively promotes revolutionary ideas, inspiring movements against the status quo."
+ social_agitator:0 "Social Agitator"
+ social_agitator_desc:0 "This character stirs public sentiment and rallies support for social causes, increasing radical activity."
+ revolutionary_agitator:0 "Revolutionary Agitator"
+ revolutionary_agitator_desc:0 "This character actively promotes revolutionary ideas, inspiring movements against the status quo."

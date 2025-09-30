@@ -5,11 +5,26 @@ l_english:
  great_revision_italian_unification_tuscany_treaty:0 "The Piedmont-Tuscan Treaty"
  great_revision_italian_unification_tuscany_alliance:0 "The Piedmont-Tuscan Alliance"
 
+ # JE labels missing errors
+ je_emilian_trade_league:0 "The Emilian Trade League"
+ je_emilian_trade_league_reason:0 "Emilian duchies are supporting the unification. If we unify our market with theirs, we will be able to create an integrated economic and political entity."
+ je_tuscan_alliance:0 "The Piedmont-Tuscan Alliance"
+ je_tuscan_alliance_reason:0 "Tuscany is a valid ally for our unification goals. Strengthen relations to sign a military cooperation treaty."
+ je_two_sicilies_campaign:0 "The Expedition of the Thousand"
+ je_two_sicilies_campaign_reason:0 "We cannot intervene directly in the Bourbons' territories, but we can finance rebels to push the government to fall."
+ je_papal_state_campaign:0 "The Porta Pia Breach"
+ je_papal_state_campaign_reason:0 "Ensure the great powers will not intervene, then begin the conquest of the Papal States."
+ je_austria_hungary_campaign:0 "The Reclamation of Lombardy-Venetia"
+ je_austria_hungary_campaign_reason:0 "Assert our claim on Lombardy-Venetia against Austria to complete unification."
+ 
+ # Tooltip used in custom_tooltip
+ great_revision_italian_unification_tuscany_alliance_tt:0 "Sardinia-Piedmont will form an Alliance with Tuscany."
+ 
  # Fix duplicated keys for event 17 by providing one canonical set
- great_revision_italian_unification.17.t: "Tricolors Over [SCOPE.sState('capital_scope').GetCityHubName]"
- great_revision_italian_unification.17.d_annex: "Inspired by calls for the reunification of Italy, nationalist rebels have seized control of [SCOPE.sState('capital_scope').GetCityHubName] and have sworn themselves to a unified Italy under [SCOPE.sCountry('italian_leader').GetRuler.GetFullName] of [SCOPE.sCountry('italian_leader').GetName]."
- great_revision_italian_unification.17.d_coup: "Inspired by calls for the reunification of Italy, nationalist rebels have seized control of [SCOPE.sState('capital_scope').GetCityHubName] and declared the government of [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName] to have fallen."
- great_revision_italian_unification.17.f: "\"Traitors! Traitors in the midst! Sound the alarm, call for the guards at once!\"\n\n\"Do you mean the suited men beside me, senor? I should hope so, since you were foolish enough to announce your presence. Now, I shall make this plain, as your raving ineptitude forced our hand in the first place: a united Italy is rising. It demands a place on the world stage, and it won't be cared for by men of your ill-fitting ilk.\""
- great_revision_italian_unification.17.a: "We will rise again, as part of a whole."
- great_revision_italian_unification.17.b: "Long live Italia!"
- great_revision_italian_unification.17.c: "We will rise again, as part of a whole."
+ great_revision_italian_unification.17.t:0 "Tricolors Over [SCOPE.sState('capital_scope').GetCityHubName]"
+ great_revision_italian_unification.17.d_annex:0 "Inspired by calls for the reunification of Italy, nationalist rebels have seized control of [SCOPE.sState('capital_scope').GetCityHubName] and have sworn themselves to a unified Italy under [SCOPE.sCountry('italian_leader').GetRuler.GetFullName] of [SCOPE.sCountry('italian_leader').GetName]."
+ great_revision_italian_unification.17.d_coup:0 "Inspired by calls for the reunification of Italy, nationalist rebels have seized control of [SCOPE.sState('capital_scope').GetCityHubName] and declared the government of [ROOT.GetCountry.GetRuler.GetPrimaryRoleTitle] [ROOT.GetCountry.GetRuler.GetFullName] to have fallen."
+ great_revision_italian_unification.17.f:0 "\"Traitors! Traitors in the midst! Sound the alarm, call for the guards at once!\"\n\n\"Do you mean the suited men beside me, senor? I should hope so, since you were foolish enough to announce your presence. Now, I shall make this plain, as your raving ineptitude forced our hand in the first place: a united Italy is rising. It demands a place on the world stage, and it won't be cared for by men of your ill-fitting ilk.\""
+ great_revision_italian_unification.17.a:0 "We will rise again, as part of a whole."
+ great_revision_italian_unification.17.b:0 "Long live Italia!"
+ great_revision_italian_unification.17.c:0 "We will rise again, as part of a whole."

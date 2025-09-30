@@ -1,0 +1,27 @@
+l_russian:
+
+  # German Unification missing
+  great_revision_german_unification.88.t:0 "A Hidden Step Toward Unity"
+  great_revision_german_unification.88.d:0 "A pivotal development advances the cause of German unification behind the scenes."
+  great_revision_german_unification.88.f:0 "Quiet negotiations and careful planning set the stage for the next move."
+  great_revision_german_unification.88.a:0 "Proceed discreetly."
+
+  great_revision_german_unification.9.t:0 "The Turin Treaty"
+  great_revision_german_unification.9.d:0 "Diplomatic maneuvers reshape the balance of power, edging Germany closer to unity."
+  great_revision_german_unification.9.f:0 "A prudent accord opens doors for future ambitions."
+  great_revision_german_unification.9.a:0 "Onward to destiny."
+
+  # Misc event keys
+  great_revision_events.16.a:0 "Understood."
+
+  # AI production/migration events
+  ai_production_event.2.t:0 "Industrial Planning"
+  ai_production_event.2.d:0 "A new production directive is issued."
+  ai_production_event.2.f:0 "Efficiency and scale will define the next phase."
+  ai_production_event.2.a:0 "Implement the plan."
+
+  ai_south_america_event.1.t:0 "Continental Strategy"
+  ai_south_america_event.1.d:0 "A strategic initiative is proposed for South America."
+  ai_south_america_event.1.f:0 "Diplomacy and development will guide our hand."
+  ai_south_america_event.1.a:0 "Proceed."
+
