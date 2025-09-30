@@ -1,0 +1,22 @@
+on_law_activated = {
+    on_actions = {
+        on_tax_law_change
+    }
+}
+
+on_tax_law_change = {
+    effect = {
+        owner = {
+            if = {
+                limit = {
+                    is_player = no
+                }
+                tgr_set_taxation_effect = yes
+            }
+            else = {
+                tgr_set_max_taxation_effect = yes
+            }
+        }
+    }
+}
+

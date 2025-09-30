@@ -1,0 +1,149 @@
+# Unified pulses for Morgenrote + TGR
+# Root = Country
+
+on_monthly_pulse_country = {
+	on_actions = {
+		# Morgenrote wrappers
+		mr_on_monthly_pulse_country
+		vikelas_on_monthly_pulse_country
+		panum_on_monthly_pulse_country
+		delay = { days = { 1 30 } }
+		manzoni_on_monthly_pulse_country
+		artists_on_monthly_pulse_country
+		delay = { days = { 1 30 } }
+		lepsius_on_monthly_pulse_country
+		delay = { days = { 1 30 } }
+		curtiss_on_monthly_pulse_country
+		delay = { days = { 1 30 } }
+		gaudi_on_monthly_pulse_country
+	}
+	
+	# TGR monthly events
+	events = {
+		great_revision_events.1
+		great_revision_events.2
+		great_revision_events.4
+		great_revision_events.15
+		great_revision_events.17
+
+		great_revision_german_unification.3
+		great_revision_german_unification.5
+
+		great_revision_italian_unification.6
+		great_revision_italian_unification.17
+		great_revision_italian_unification.18
+		great_revision_italian_unification.19
+	}
+}
+
+on_half_yearly_pulse_country = {
+	on_actions = {
+		# Morgenrote wrappers
+		mr_on_half_yearly_pulse_country
+		delay = { days = { 1 180 } }
+		artists_on_half_yearly_pulse_country
+		delay = { days = { 1 180 } }
+		curtiss_on_half_yearly_pulse_country
+		delay = { days = { 1 180 } }
+		lepsius_on_half_yearly_pulse_country
+		delay = { days = { 1 90 } }
+		sports_retirement_for_athletes
+		delay = { days = { 1 180 } }
+		dubois_on_half_yearly_pulse_country
+	}
+
+	# TGR half-yearly effects and events
+	effect = {
+		# Tax panel effect
+		every_country = {
+			if = {
+				limit = { is_player = no }
+				tgr_set_taxation_effect = yes
+			}
+			else = {
+				tgr_set_max_taxation_effect = yes
+			}
+		}
+	}
+	events = {
+		migration_agreement_campaign.1
+		greener_grass_campaign_events.1
+		greener_grass_campaign_events.2
+	}
+}
+
+on_yearly_pulse_country = {
+	on_actions = {
+		# Morgenrote wrappers
+		vikelas_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		mendelejew_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		panum_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		manzoni_on_yearly_pulse_country
+		manzoni_on_yearly_pulse_country_writers
+		manzoni_on_yearly_pulse_country_local_writers
+		manzoni_on_yearly_pulse_country_local_writer_appearance
+		manzoni_on_yearly_pulse_country_book_license
+		manzoni_on_yearly_pulse_country_random
+		manzoni_on_yearly_pulse_country_politicians
+		delay = { days = { 1 360 } }
+		dufour_on_yearly_pulse_country
+		dubois_on_yearly_pulse_country_reports
+		delay = { days = { 1 360 } }
+		dubois_on_yearly_pulse_country
+		dubois_on_yearly_pulse_random_zoo_babies
+		dubois_on_yearly_pulse_habitat_destruction
+		dubois_on_yearly_pulse_naturalist_negative
+		pius_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		artists_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		rapanui_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		elgar_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		lepsius_on_yearly_pulse_country
+		lepsius_on_yearly_pulse_local_excavation_events
+		lepsius_on_yearly_pulse_cave_expedtion_events
+		lepsius_archaeologists_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		curtiss_on_yearly_pulse_country
+		douglas_on_yearly_pulse
+		mr_swe_nor_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		gaudi_on_yearly_pulse_country
+		mr_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		matsuura_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		verrier_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		klimt_on_yearly_pulse_country
+		delay = { days = { 1 360 } }
+		mfe_yearly_pulse
+	}
+
+	# TGR yearly events
+	events = {
+		great_revision_events.3
+		great_revision_events.7
+		great_revision_events.8
+		great_revision_events.6
+		great_revision_events.12
+		great_revision_events.13
+		great_revision_events.14
+		great_revision_events.16
+
+		ai_production_event.2
+		ai_south_america_event.1
+
+		great_revision_german_unification.4
+
+		great_revision_italian_unification.13
+		great_revision_italian_unification.14
+
+		gain_ideology_pol.1
+	}
+}

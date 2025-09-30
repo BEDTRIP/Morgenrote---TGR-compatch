@@ -1,0 +1,193 @@
+﻿####################
+# PANUM ON ACTIONS #
+####################
+
+#by Marco Dandolo
+
+######################
+
+on_harvest_condition_started_in_country = {
+	on_actions = {
+		panum_on_harvest_condition_started_in_country 
+	}
+}
+
+on_acquired_technology = {
+	on_actions = {
+		panum_on_acquired_technology
+	}
+}
+
+on_yearly_pulse = {
+	on_actions = {
+		panum_on_yearly_pulse
+	}
+}
+
+on_battle_lost = {
+	on_actions = {
+		panum_on_battle_lost
+	}
+}
+
+on_building_built = {
+	on_actions = {
+		panum_on_building_built
+	}
+}
+
+panum_on_harvest_condition_started_in_country = {
+	effect = {
+		panum_epidemic_send_event_or_notification_effect = yes
+	}
+	events = {
+		panum.1100 #Panum 1100: Spanish Flu Panddemic
+	}
+}
+
+panum_on_acquired_technology = {
+	events = {
+		panum.12 #Panum 12: The First Vaccine
+
+		panum.21 #Panum 21: Triage
+		panum.22 #Panum 22: Quinine
+		panum.23 #Panum 23: Psychiatry
+		panum.24 #Panum 24: Modern Nursing
+	}
+}
+
+panum_on_monthly_pulse_country = {
+	effect = {
+		#This effect is used to add the psychotherapeutic progress to all countries
+		panum_monthly_psychotherapeutic_progress_effect = yes
+	}
+}
+
+panum_on_yearly_pulse_country = {
+	effect = {
+		######################
+		#Smallpox Eredication#
+		if = {
+			limit = {
+				NOT = {
+					has_global_variable = panum_eredication_smallpox_global_var
+				}
+				NOT = {
+					any_country = {
+						panum_has_smallpox_prevention_trigger = no
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					is_player = yes
+				}
+				trigger_event = {
+					id = panum.4003
+				}
+			}
+		}
+		######################
+	}
+	events = {
+		panum.101 #Panum 101: Third Cholera Pandemic
+		panum.800 #Panum 800: Third Plague Wave starts
+
+		panum.1101 #Panum 1101: Spanish Flu Pancemic (historical)
+
+		panum.2621 #Panum 2621: The Concept of Anxiety
+
+		panum.3002 #Panum 3002: The Red Cross - Event for Switzerland
+		panum.3031 #Panum 3031: First Convention becomes a binding Convention
+		panum.3032 #Panum 3032: Second Convention becomes a binding Convention
+		panum.3033 #Panum 3033: Third Convention becomes a binding Convention
+	}
+
+	random_events = {
+		10 = 0
+
+		10 = panum.2121 #Panum 2121: Doctor's love of skulls
+		10 = panum.2122 #Panum 2122: Biological Determinism
+		4 = panum.2123 #Panum 2123: Doctor claims CHARACTER is a criminal
+		2 = panum.2124 #Panum 2124: Doctor introduces Anthropologist
+
+		1 = panum.1102 #Panum 1102: Spanish Flu Pancemic (dynamic)
+	}
+}
+
+panum_on_yearly_pulse = {
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_global_variable = panum_polio_epidemic_global_var
+				}
+				game_date >= 1886.1.1 #Historically, polio began to become an epidemic disease around the late 19th century. The date is a little earlier because otherwise it coincides too closely with the plague
+				any_country = {
+					panum_has_polio_prevention_trigger = no
+					has_technology_researched = modern_sewerage
+					institution_investment_level = {
+						institution	= institution_health_system
+						value >= 1
+					}
+					any_scope_state = {
+						average_sol <= 35
+						total_urbanization >= 1000
+					}
+				}
+			}
+
+			random_country = {
+				limit = {
+					panum_has_polio_prevention_trigger = no
+					has_technology_researched = modern_sewerage
+					institution_investment_level = {
+						institution	= institution_health_system
+						value >= 1
+					}
+					any_scope_state = {
+						average_sol <= 35
+						total_urbanization >= 1000
+					}
+				}
+				trigger_event = {
+					id = panum.1001 #Panum 1001: Polio becomes Epidemic
+					days = { 1 60 }
+				}
+				set_global_variable = panum_polio_epidemic_global_var
+			}
+		}
+	}
+}
+
+panum_on_battle_lost = {
+	events = {
+		panum.3021 #Panum 3021: A Red Cross Medic
+	}
+}
+
+panum_on_building_built = {
+	effect = {
+		if = {
+			limit = {
+				owner = {
+					NOT = {
+						has_variable = panum_asylum_inauguration_happened
+					}
+					any_scope_state = {
+						any_scope_building = {
+							is_building_type = building_panum_asylum
+							level >= 1
+						}
+					}
+				}
+			}
+			owner = {
+				trigger_event = {
+					id = panum.2600 #Panum 2600: The Asylum
+					popup = yes
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,316 @@
+﻿######################
+# LEPSIUS ON ACTIONS #
+######################
+
+#by Marco Dandolo
+
+######################
+
+on_yearly_pulse = {
+	on_actions = {
+		lepsius_on_yearly_pulse
+	}
+}
+
+on_acquired_technology = {
+	on_actions = {
+		lepsius_on_acquired_technology
+	}
+}
+
+on_building_built = {
+	on_actions = {
+		lepsius_on_building_built
+	}
+}
+
+on_five_year_pulse_country = {
+	on_actions = {
+		lepsius_on_five_year_pulse_country
+	}
+}
+
+lepsius_on_yearly_pulse = {
+	effect = {
+		random_country = {
+			trigger_event = lepsius.1341 #Piltdown Man Fraud
+		}
+	}
+}
+
+lepsius_on_yearly_pulse_country = {
+	events = {
+		#Historical Events
+		lepsius.2000 #Thomsen invents the Three-Age System
+
+		#Historical Fossils
+		lepsius.1331 #Neanderthaler
+		lepsius.1332 #Cro-Magnon
+		lepsius.1333 #Peking Man
+		lepsius.1334 #Taung Child
+		lepsius.1335 #Piltdown Man
+		lepsius.1336 #Heidelberg Man
+	}
+
+	#Excavation Events
+	random_events = {
+		500 = 0
+
+		5 = lepsius.712 #Nefertiti
+		5 = lepsius.713 #Narmer
+		5 = lepsius.723 #Helmet of Meskalamdug
+		5 = lepsius.732 #Diskos of Phaistos
+		5 = lepsius.733 #Snake Goddess
+	}
+}
+
+lepsius_on_yearly_pulse_local_excavation_events = {
+	#Local Excavation Events
+	random_events = {
+		120 = 0
+
+		15 = lepsius.1211 #Cult objects
+		15 = lepsius.1212 #Ceramics
+		5 = lepsius.1213 #Neolithic village
+		10 = lepsius.1214 #Human Bones
+		20 = lepsius.1215 #An ambitious successor
+	}
+}
+
+lepsius_on_yearly_pulse_cave_expedtion_events = {
+	#Cave Exploration Events
+	random_events = {
+		120 = 0
+
+		15 = lepsius.1411 ##Lepsius 1411: Stone Tools
+		5 = lepsius.1412 #Lepsius 1412: Strange Bone
+		10 = lepsius.1413 #Lepsius 1413: Fruitful studies
+		10 = lepsius.1414 #Lepsius 1414: Assistant finds Fossils
+		20 = lepsius.1415 #Lepsius 1415: Human Bones
+		5 = lepsius.1416 #Lepsius 1416: Drawings
+		10 = lepsius.1417 #Lepsius 1417: Altamira Paintings
+	}
+}
+
+#Local Archaeology Events
+lepsius_on_yearly_pulse_local_archaeology_events = {
+	trigger = { lepsius_has_active_archaeologist = yes }
+
+	random_events = {
+		chance_to_happen = 100
+		chance_of_no_event = {
+			value = 93.3
+			if = {
+				limit = {
+					var:lepsius_archaeologist_var.var:lepsius_archaeologist_experience_var >= 100
+				}
+				subtract = 1
+			}
+			else_if = {
+				limit = {
+					var:lepsius_archaeologist_var.var:lepsius_archaeologist_experience_var >= 200
+				}
+				subtract = 2.3
+			}
+			else_if = {
+				limit = {
+					var:lepsius_archaeologist_var.var:lepsius_archaeologist_experience_var >= 300
+				}
+				subtract = 4.3
+			}
+		}
+
+		#Aegean
+		3 = lepsius.2161 #Lepsius 2161: Aegean Fresco found
+		3 = lepsius.2162 #Lepsius 2162: Aegean Ruins discovered
+		1 = lepsius.2163 #Lepsius 2163: Aegean Jewelry unearthed
+		1 = lepsius.2164 #Lepsius 2164: Golden Cup of Aegean Origin
+
+		#Atztec
+		2 = lepsius.2131 #Lepsius 2131: Skull Fragmets found in Aztect Settlement
+		2 = lepsius.2132 #Lepsius 2132: Aztec Inscription saved by local Scholar
+		5 = lepsius.2133 #Lepsius 2133: Aztec Ruins discovered
+		1 = lepsius.2134 #Lepsius 2134: Obsidian Mirror discovered
+
+		#Carthage
+		4 = lepsius.2141 #Lepsius 2141: Carthaginian shipwreck discovered
+		4 = lepsius.2142 #Lepsius 2142: Stranded Punic warship
+		2 = lepsius.2143 #Lepsius 2143: Punic Port discovered
+		4 = lepsius.2144 #Lepsius 2144: Coins from ancient Carthage discovered
+
+		#Celts
+		2 = lepsius.2151 #Lepsius 2151: Celtic Cauldron discovered
+		2 = lepsius.2152 #Lepsius 2152: Celtic Bronze Shield Cover found
+		2 = lepsius.2153 #Lepsius 2153: Celtic Bronze Helmet recovered
+		4 = lepsius.2154 #Lepsius 2154: Ancient Menhir discovered
+
+		#Egypt
+		2 = lepsius.2171 #Lepsius 2171: Egyptian Wall Paintings
+		2 = lepsius.2172 #Lepsius 2172: Ancient Egyptian Temple unearthed
+		1 = lepsius.2173 #Lepsius 2173: Egyptian Statue retrieved
+		2 = lepsius.2174 #Lepsius 2174: Egyptian Mummy discovered
+
+		#Hellenic
+		3 = lepsius.2181 #Lepsius 2181: Hellenic Battle Site discovered
+		3 = lepsius.2182 #Lepsius 2182: Hellenic Coins found
+		3 = lepsius.2183 #Lepsius 2183 Hellenic Ruins excavated
+		3 = lepsius.2184 #Lepsius 2184 Depiction of a Greek God
+
+		#Persian
+		6 = lepsius.2111 #Lepsius 2111: Ancient Persian Sarcophagus
+		2 = lepsius.2112 #Lepsius 2112: Mesopotamian Cuneiform Tablets in Persian Palace
+		2 = lepsius.2113 #Lepsius 2113: Egyptian Statue in Persian Tomb
+		2 = lepsius.2114 #Lepsius 2114: Monumental Inscription
+
+		#Roman
+		4 = lepsius.2101 #Lepsius 2101: Remains of a Roman Battle
+		6 = lepsius.2102 #Lepsius 2102: Villa Rustica discovered
+		1 = lepsius.2103 #Lepsius 2103: Ancient Roman tablets discovered
+		1 = lepsius.2104 #Lepsius 2104: Roman Coin Treasure discovered
+
+		#Inca
+		2 = lepsius.2191 #Lepsius 2191: Inca Bathing Complex Unearthed
+		1 = lepsius.2192 #Lepsius 2192: Inca Skull with a Hole discovered
+		1 = lepsius.2193 #Lepsius 2193: Incan Mountain Mummies
+		4 = lepsius.2194 #Lepsius 2194: Inca Ruins
+
+		#Stone Age
+		1 = lepsius.2121 #Lepsius 2121: A Prehistoric Bone Flute
+		1 = lepsius.2122 #Lepsius 2122: Cave Painting found
+		1 = lepsius.2123 #Lepsius 2123: Prehistoric Figurine discovered
+		1 = lepsius.2124 #Lepsius 2124: Bones and Stone Tools recovered
+	}
+}
+
+lepsius_archaeologists_on_yearly_pulse_country = {
+	random_events = {
+		80 = 0 #This should be around 4/5 of the other events
+
+		1 = lepsius.2500 #Lepsius 2500: New Archaeological Map of [State]
+		1 = lepsius.2501 #Lepsius 2501: An Illustrated Archaeological Catalog of [Country]
+		1 = lepsius.2502 #Lepsius 2502: New Catalog of all Archaeological finds of [Country]
+		1 = lepsius.2503 #Lepsius 2503: Professor [Archaeologist] stops artifact smuggle
+
+		1 = lepsius.2600 #Lepsius 2600: The lost Star
+		1 = lepsius.2601 #Lepsius 2601: Estimating Dates of Historical Events by using astronomical knowledge of Solar Eclipses
+		1 = lepsius.2602 #Lepsius 2602: Overview of the Astronomical Knowledge of past Cultures
+		1 = lepsius.2603 #Lepsius 2603: Hero's Steam Engine reconstructed
+	}
+}
+
+lepsius_on_half_yearly_pulse_country = {
+	events = {
+		lepsius.1302 #Neanderthal
+		lepsius.1303 #Altamira
+		lepsius.1304 #Taung
+		lepsius.1305 #Kromdraai
+		lepsius.1306 #Zhoukoudian
+		lepsius.1307 #Ngandong
+		lepsius.1308 #Vézère Valley (Cro-Magnon)
+		lepsius.1309 #Mauer
+	}
+}
+
+lepsius_on_monthly_pulse_country = {
+	events = {
+		#Excavation sacked
+		lepsius.61
+	}
+	effect = { #Removes Archaeological Museums if there is more than 1
+		if = {
+			limit = {
+				any_scope_state = {
+					has_building = building_lepsius_archaeological_museum
+				}
+				capital = {
+					NOT = { has_building = building_lepsius_archaeological_museum }
+				}
+			}
+			trigger_event = lepsius.99
+		}
+		if = {
+			limit = {
+				any_scope_state = {
+					has_building = building_lepsius_archaeological_museum
+					count > 1
+				}
+			}
+			if = {
+				limit = {
+					any_scope_state = {
+						is_capital = yes
+						has_building = building_lepsius_archaeological_museum
+					}
+				}
+				every_scope_state= {
+					limit = {
+						is_capital = no
+						has_building = building_lepsius_archaeological_museum
+					}
+					remove_building = "building_lepsius_archaeological_museum"
+				}
+			}
+		}
+		every_scope_state = { #Just in case there is a deactivated one
+			limit = {
+				has_building = building_lepsius_archaeological_museum
+			}
+			activate_building = {
+				building = building_lepsius_archaeological_museum
+			}
+		}
+	}
+}
+
+lepsius_on_acquired_technology = {
+	events = {
+		lepsius.80 #Lepsius 80: A new Age of Archaeology! (if Early Archaeology is discovered)
+		lepsius.81 #Lepsius 81: Modern Excavation Methods (if Modern Archaeology is discovered)
+	}
+}
+
+lepsius_on_building_built = {
+	effect = {
+		if = {
+			limit = {
+				owner = {
+					NOT = {
+						has_variable = lepsius_museum_inauguration_happened
+					}
+					lepsius_has_archaeological_museum = yes
+				}
+			}
+			owner = {
+				trigger_event = {
+					id = lepsius.10 #Lepsius 10: Museum inauguration
+					popup = yes
+				}
+			}
+		}
+	}
+}
+
+lepsius_on_five_year_pulse_country = {
+	#Archaeological Events concenring Politics and Society
+	random_events = {
+		15 = 0
+
+		#Donation
+		1 = lepsius.1601 #Lepsius 1601: A Donation (Intelligentsia, Egyptian Artifacts)
+		1 = lepsius.1602 #Lepsius 1602: A Donation (Landowners, Mesopotamian Artifacts)
+		1 = lepsius.1603 #Lepsius 1603: A Donation (Rural Folk, Local Artifacts)
+		1 = lepsius.1604 #Lepsius 1604: A Donation (Petty Bourgeosie, Precolumbian Artifacts)
+		1 = lepsius.1605 #Lepsius 1605: A Donation (Industrialists, Aegean Artifacts)
+
+		#Mania
+		1 = lepsius.1606 #Lepsius 1606: Egyptomania
+		1 = lepsius.1607 #Lepsius 1607: Mayanism
+		1 = lepsius.1608 #Lepsius 1608: Panbabylonism
+		1 = lepsius.1609 #Lepsius 1609: Atlantism
+
+		#Museum
+		4 = lepsius.1610 #Lepsius 1610: Academic Investment
+		1 = lepsius.1611 #Lepsius 1611: Museum ticket prices
+		1 = lepsius.1612 #Lepsius 1612: Legacy of $DIRECTOR$
+	}
+}

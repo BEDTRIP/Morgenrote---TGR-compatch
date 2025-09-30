@@ -1,4 +1,0 @@
-# FILE_CONFLICT same_path = gfx\interface\icons\production_method_icons\aeroplanes.dds # ignore
-# exists_in_Morgenrote = gfx\interface\icons\production_method_icons\aeroplanes.dds
-# exists_in_TGR = gfx\interface\icons\production_method_icons\aeroplanes.dds
-

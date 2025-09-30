@@ -1,4 +1,0 @@
-AND = ???
-# variant_from_Morgenrote = ~\Morgenrote\common\script_values\mr_science_ito_script_values.txt : 24
-# variant_from_TGR = ~\The great revision\common\script_values\TGR_TAX_PANEL_script_values.txt : 180
-

@@ -1,4 +1,0 @@
-GLOBALGLOBAL = ???
-# variant_from_Morgenrote = ~\Morgenrote\common\history\global\0_mr_cmf_initiation.txt
-# variant_from_TGR = ~\The great revision\common\history\global\TGR_POLITICS_global.txt
-

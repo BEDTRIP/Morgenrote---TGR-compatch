@@ -1,0 +1,3 @@
+﻿mfe_yearly_pulse = {
+	# original MFE yearly pulse actions remain here (called from unified file)
+}

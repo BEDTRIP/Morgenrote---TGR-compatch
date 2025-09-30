@@ -1,0 +1,159 @@
+﻿######################
+# CURTISS ON ACTIONS #
+######################
+
+#by Marco Dandolo
+
+######################
+
+on_acquired_technology = {
+	on_actions = {
+		curtiss_on_acquired_technology
+	}
+}
+
+on_battle_won = {
+	on_actions = {
+		curtiss_on_battle_won
+	}
+}
+
+on_company_established = {
+    on_actions = {
+		curtiss_on_company_established
+	}
+}
+
+curtiss_on_acquired_technology = {
+	effect = {
+		if = {
+			limit = {
+				NOT = {
+					has_variable = curtiss_testplane_first_speed_record_var
+				}
+				has_technology_researched = military_aviation
+			}
+			curtiss_new_airplane_speed_effect = yes
+			curtiss_airplane_country_speed_record_experience_only_world_record_effect = yes
+			set_variable = curtiss_testplane_first_speed_record_var
+		}
+	}
+	events = {
+		curtiss.10 #Curtiss 10: Seaplanes [Schneider's Trophy JE]
+		curtiss.11 #Curtiss 11: Has Seaplanes tech [hidden]
+		curtiss.12 #Curtiss 12: Henry Fabre
+
+		curtiss.50 #Curtiss 50: Airplanes or Zeppelins
+
+		curtiss.60 #Curtiss 60: First Tourist Agency
+	}
+}
+
+curtiss_on_battle_won = {
+	events = {
+		curtiss.311
+	}
+}
+
+curtiss_on_yearly_pulse_country = {
+	effect = {
+		curtiss_update_tourism_income_effect = yes
+		if = {
+			limit = {
+				NOT = {
+					has_global_variable = curtiss_gordon_bennet_cup_cooldown_global_var
+				}
+				has_modifier = curtiss_gordon_bennett_cup_modifier
+			}
+			set_global_variable = {
+				name = curtiss_gordon_bennet_cup_cooldown_global_var
+				days = 500
+			}
+			curtiss_gordon_bennett_cup_effect = yes
+		}
+	}
+	events = {
+
+		curtiss.600 #Curtiss 600: Balloon flight from Vauxhall Gardens to Weilburg
+		curtiss.601 #Curtiss 601: Invention of the Rip Panel
+		curtiss.602 #Curtiss 602: First crossing of the Alps in a balloon by Francisque Arban
+		curtiss.603 #Curtiss 603: Francisque Arban disappeared during a balloon flight over the Mediterranean Sea
+		curtiss.609 #Curtiss 609: Nadar takes first aerial photos from a balloon
+		curtiss.610 #Curtiss 610: Nadar's "Le Géant" crashes in Hannover
+		curtiss.611 #Curtiss 611: Glaisher and Coxwell set record for highest balloon flight
+		curtiss.612 #Curtiss 612: Eduard Spelterini transports passengers across the Alps
+		curtiss.613 #Curtiss 613: First flight of a steerable airship built by Giffard
+		curtiss.614 #Curtiss 614: Auguste Piccard considers moving to Brussels
+	}
+}
+
+curtiss_on_half_yearly_pulse_country = {
+	events = {
+		curtiss.13 #Curtiss 13: Water Airport
+
+		curtiss.51 #Curtiss 51: Helium discovered
+		curtiss.52 #Curtiss 52: Helium reserve lost
+		curtiss.53 #Curtiss 53: Graf Ferdinand von Zeppelin
+
+		curtiss.213 #Curtiss 213: Zeppelin Flight route between Skyscrapers
+		curtiss.217 #Curtiss 217: Electoral Campaign
+		curtiss.228 #Curtiss 228: Thriving aircraft factories
+	}
+}
+
+curtiss_on_company_established = {
+	effect = {
+		if = {
+			limit = {
+				curtiss_has_airline_company = yes
+				NOT = {
+					has_variable = curtiss_airline_company_created_var
+				}
+			}
+			set_variable = curtiss_airline_company_created_var
+			set_variable = {
+				name = curtiss_flight_route
+				value = 1
+			}
+			if = {
+				limit = {
+					has_law = law_type:law_command_economy
+				}
+				trigger_event = { 
+					id = curtiss.21
+					popup = yes
+				}
+			}
+			else = {
+				trigger_event = { 
+					id = curtiss.20
+					popup = yes
+					days = 1
+				}
+			}
+		}
+	}
+}
+
+################################################################################
+
+#by Lord R
+
+curtiss_on_monthly_pulse_country = {
+	events = {
+		curtiss.671 # Experienced Balloonist
+		curtiss.672 # Famous Balloonist
+	}
+
+	random_events = {
+		12000 = 0
+		1000 = curtiss.653 # Balloonist tries to set new Altitude record
+		1000 = curtiss.658 # Balloonist tries to set new Altitude record (hidden)
+		1000 = curtiss.654 # Balloonist tries to set new Distance record
+		1000 = curtiss.659 # Balloonist tries to set new Distance record (hidden)
+		200 = curtiss.670 # Balloonist died in accident
+		200 = curtiss.675 # Balloonist died in accident (hidden)
+		1 = curtiss.673 # Balloonist killed by comet
+		1 = curtiss.674 # Death by Whale
+	}
+}

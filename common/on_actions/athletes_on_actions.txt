@@ -1,0 +1,13 @@
+﻿######################
+# ATHLETES ON ACTIONS #
+######################
+
+#by Lord R & Marco Dandolo
+
+######################
+
+sports_retirement_for_athletes = {
+	random_events = {
+		# retirement events live elsewhere
+	}
+}
