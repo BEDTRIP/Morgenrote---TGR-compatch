@@ -29,16 +29,16 @@
   great_revision_italian_unification_emilian_integration:0 "The Piedmont-Emilian Integration"
   great_revision_italian_unification_tuscany_treaty:0 "The Piedmont-Tuscan Treaty"
   great_revision_italian_unification_tuscany_alliance:0 "The Piedmont-Tuscan Alliance"
-  great_revision_italian_unification_two_sicilies_rebels:0 "Sicilian Pro-Unification Rebels Funded".
-  great_revision_italian_unification_two_sicilies_rebels_movement:0 "Sicilian Pro-Unification Rebels Funded".
-  great_revision_italian_unification_two_sicilies_rebels_civil_war:0 "The Red Shirts".
-  great_revision_italian_unification_two_sicilies_monarchist_civil_war:0 "Disbanded Monarchist".
-  great_revision_italian_unification_papal_state_war:0 "War of the Pope".
-  great_revision_italian_unification_papal_state_war_end:0 "The Porta Pia Breach".
-  great_revision_italian_unification_austria_hungary_war_ita:0 "War on National Territory".
-  great_revision_italian_unification_austria_hungary_war_aus:0 "War on Foreign Territory".
-  great_revision_italian_unification_austria_hungary_war_end:0 "The Reclamation of Lombardy-Venetia".
-  great_revision_italian_unification_austria_hungary_war_maneuvers:0 "Diplomatic Play against Austria". 
+  great_revision_italian_unification_two_sicilies_rebels:0 "Sicilian Pro-Unification Rebels Funded"
+  great_revision_italian_unification_two_sicilies_rebels_movement:0 "Sicilian Pro-Unification Rebels Funded"
+  great_revision_italian_unification_two_sicilies_rebels_civil_war:0 "The Red Shirts"
+  great_revision_italian_unification_two_sicilies_monarchist_civil_war:0 "Disbanded Monarchist"
+  great_revision_italian_unification_papal_state_war:0 "War of the Pope"
+  great_revision_italian_unification_papal_state_war_end:0 "The Porta Pia Breach"
+  great_revision_italian_unification_austria_hungary_war_ita:0 "War on National Territory"
+  great_revision_italian_unification_austria_hungary_war_aus:0 "War on Foreign Territory"
+  great_revision_italian_unification_austria_hungary_war_end:0 "The Reclamation of Lombardy-Venetia"
+  great_revision_italian_unification_austria_hungary_war_maneuvers:0 "Diplomatic Play against Austria" 
   
   ########################### ITALIAN UNIFICATION: MODIFIERS AI STRATEGIES #######################################
   risorgimento_war_of_the_pope: "doesn't want to be involved in the War of the Pope"

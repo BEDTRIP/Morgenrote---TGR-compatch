@@ -17,39 +17,10 @@
   resign_from_office_politician_2_tt: "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] will abandon the Party's Leadership" 
   
   #################### CHARACTER INTERACTION: IDEOLOGY TOOLTIPS ####################
-  ideology_moderate_tt: "A [GetIdeology('ideology_moderate').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_reformer_tt: "A [GetIdeology('ideology_reformer').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_liberal_leader_tt: "A [GetIdeology('ideology_liberal_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_radical_tt: "A [GetIdeology('ideology_radical').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_pacifist_tt: "A [GetIdeology('ideology_pacifist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_communist_tt: "A [GetIdeology('ideology_communist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_royalist_tt: "A [GetIdeology('ideology_royalist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_traditionalist_tt: "A [GetIdeology('ideology_traditionalist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_market_liberal_tt: "A [GetIdeology('ideology_market_liberal').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_sovereignist_leader_tt: "A [GetIdeology('ideology_sovereignist_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_social_democrat_tt: "A [GetIdeology('ideology_social_democrat').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_authoritarian_tt: "A [GetIdeology('ideology_authoritarian').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_corporatist_leader_tt: "A [GetIdeology('ideology_corporatist_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_land_reformer_tt: "A [GetIdeology('ideology_land_reformer').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_ethno_nationalist_tt: "A [GetIdeology('ideology_ethno_nationalist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_theocrat_tt: "A [GetIdeology('ideology_theocrat').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_jingoist_leader_tt: "A [GetIdeology('ideology_jingoist_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_protectionist_tt: "A [GetIdeology('ideology_protectionist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_integralist_tt: "A [GetIdeology('ideology_integralist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_slaver_tt: "A [GetIdeology('ideology_slaver').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_luddite_tt: "A [GetIdeology('ideology_luddite').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
-  ideology_vanguardist_tt: "A [GetIdeology('ideology_vanguardist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]." 
+  # Duplicate long-form ideology tooltips removed; short canonical keys below are kept
 
   #################### CHARACTER INTERACTION: TECHNOLOGY TOOLTIP ####################
-  socialism_vanguardist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('socialism').GetName] a new [GetIdeology('ideology_vanguardist').GetName] [concept_politician] Will be available." 
-  socialism_communist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('socialism').GetName] a new [GetIdeology('ideology_communist').GetName] [concept_politician] Will be available." 
-  labor_movement_social_democrat_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('labor_movement').GetName] a new [GetIdeology('ideology_social_democrat').GetName] [concept_politician] Will be available." 
-  ethno_nationalist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('nationalism').GetName] a new [GetIdeology('ideology_ethno_nationalist').GetName] [concept_politician] Will be available." 
-  corporatist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('corporatism').GetName] a new [GetIdeology('ideology_corporatist_leader').GetName] [concept_politician] Will be available." 
-  ideology_market_liberal_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('stock_exchange').GetName] a new [GetIdeology('ideology_market_liberal').GetName] [concept_politician] Will be available." 
-  ideology_protectionist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('stock_exchange').GetName] a new [GetIdeology('ideology_protectionist').GetName] [concept_politician] Will be available." 
-  ideology_liberal_leader_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('egalitarianism').GetName] a new [GetIdeology('ideology_liberal_leader').GetName] [concept_politician] Will be available." 
-  ideology_radical_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('egalitarianism').GetName] a new [GetIdeology('ideology_radical').GetName] [concept_politician] Will be available." 
+  # Duplicate verbose technology tooltips removed; canonical concise tooltips defined below
   
   #################### CHARACTER INTERACTION: TITLE INTERACTION ####################
   found_movement: "Found a Political Movement" 
@@ -135,7 +106,6 @@
   politician_progaganda_campaign.5.desc:0 "The new Party Leader"
   politician_progaganda_campaign.5.d:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName]'s continued failures have led the party to no longer support the current political direction. The most influential members are calling for a change in leadership."
   politician_progaganda_campaign.5.f:0 "The party had called an extraordinary assembly to decide who would lead the group into a new political direction, but not all members were in unanimous agreement, and different wings of the party wanted to take a specific direction.\n\nWho would lead the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName] into its next political era?"
-  resign_from_office_politician_2_tt:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] will abandon the Party's Leadership"
   politician_progaganda_campaign_pro_tt:0 "Start a propaganda campaign to increase this character's popularity."
   politician_progaganda_campaign_against_tt:0 "Start a smear campaign to damage this character's popularity."
   politician_progaganda_campaign_agitator_activism_tt:0 "Organize a demonstration to increase movement activism."
