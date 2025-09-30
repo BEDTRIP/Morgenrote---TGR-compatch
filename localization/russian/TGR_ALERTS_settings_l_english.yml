@@ -1,0 +1,19 @@
+﻿l_russian:
+
+  # Alert settings
+  no_propaganda_campaign_in_use_setting_name:0 "No Propaganda Campaign in Use"
+  no_propaganda_campaign_in_use_setting_desc:0 "Warns when no Propaganda Campaign is active on any [concept_leader]."
+  no_discredit_campaign_in_use_setting_name:0 "No Discredit Campaign in Use"
+  no_discredit_campaign_in_use_setting_desc:0 "Warns when no Discredit Campaign is active on any [concept_leader]."
+
+  # Actual alert strings
+  alert_no_propaganda_campaign_in_use_name:0 "No Propaganda Campaign in use"
+  alert_no_propaganda_campaign_in_use_desc:0 "You can use Character's interaction to start a #yellow;bold; Propaganda Campaign#! on a [concept_leader]."
+  alert_no_propaganda_campaign_in_use_hint:0 "Open the Politics panel and use this Interaction to #green;bold; Increase#! the IG power and attraction."
+  alert_no_propaganda_campaign_in_use_action:0 "Government Panel"
+
+  alert_no_discredit_campaign_in_use_name:0 "No Discredit Campaign in use"
+  alert_no_discredit_campaign_in_use_desc:0 "You can use Character's interaction to start a #yellow;bold; Discredit Campaign#! on a [concept_leader]."
+  alert_no_discredit_campaign_in_use_hint:0 "Open the Politics panel and use this Interaction to #red;bold; Decrease#! the IG power and attraction."
+  alert_no_discredit_campaign_in_use_action:0 "Government Panel"
+
