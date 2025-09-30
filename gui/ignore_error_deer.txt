@@ -1,8 +1,10 @@
-name = ??? # _show
+# ignore
+# name = ??? # _show
 # variant_from_Morgenrote = ~\Morgenrote\gui\error_deer.gui : 15
 # variant_from_TGR = ~\The great revision\gui\budget_panel.gui : 19
 
-name = ??? # _hide
+# ignore
+# name = ??? # _hide
 # variant_from_Morgenrote = ~\Morgenrote\gui\error_deer.gui : 21
 # variant_from_TGR = ~\The great revision\gui\budget_panel.gui : 26
 
