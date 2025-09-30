@@ -1,0 +1,4 @@
+l_english:
+  MR_FIRE_BALLOONIST_BUTTON_TT: "Fire your current [Concept('concept_curtiss_balloonist_role','$concept_curtiss_balloonist_role_only_balloonist$')]\n\n[ScriptedGui.BuildTooltip( GuiScope.SetRoot( GetPlayer.MakeScope ).End )]"
+
+
