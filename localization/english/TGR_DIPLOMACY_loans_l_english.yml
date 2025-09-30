@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  apply_for_a_loan_action_name:0 "Apply for a Loan"
  apply_for_a_loan_proposal_third_party_accepted_name:0 "Loan Application Accepted"
  apply_for_a_loan_proposal_third_party_accepted_desc:0 "[TARGET_COUNTRY.GetName] has agreed to extend us a loan."

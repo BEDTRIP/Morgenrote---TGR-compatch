@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  # Consolidate concept definitions to avoid duplicates
  concept_migration_agreement:0 "Migration Agreement"
  concept_migration_agreements:0 "Migration Agreements"

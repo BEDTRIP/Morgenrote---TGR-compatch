@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  # Alert settings
  no_propaganda_campaign_in_use_setting_name:0 "No Propaganda Campaign in Use"
  no_propaganda_campaign_in_use_setting_desc:0 "Warns when no Propaganda Campaign is active on any [concept_leader]."

@@ -1,4 +1,4 @@
-l_english:
+﻿l_english:
  # Fix event 1.f multi-quote content
  politician_progaganda_campaign.1.f:0 "\"That's exactly it, my friend. I say it here and I don't deny it here, [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] is the politician we need, the right man at the right time!\"\n\n\"Isn't he a little too exuberant to take the reins of the party?\"\n\n\"Why on earth do you say that?\"\n\n\"Friend... the other day he literally began by saying: I will lead MY party to greatness, leading our nation... for the good of the Empire... er, I meant, of the Republic..\""
  
