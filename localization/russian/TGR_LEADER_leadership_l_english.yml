@@ -1,0 +1,149 @@
+﻿l_russian:
+  #################### CHARACTER INTERACTION: ALERTS ####################
+  alert_no_propaganda_campaign_in_use_name: "No Propaganda Campaign in use"
+  alert_no_propaganda_campaign_in_use_desc: "You can use Character's interaction to start a #yellow;bold; Propaganda Campaign#! on a [concept_leader]."
+  alert_no_propaganda_campaign_in_use_hint: "Open the Politics panel and use this Interaction to #green;bold; Increase#! the IG power and attraction."
+  alert_no_propaganda_campaign_in_use_action: "Government Panel"
+  
+  alert_no_discredit_campaign_in_use_name: "No Discredit Campaign in use"
+  alert_no_discredit_campaign_in_use_desc: "You can use Character's interaction to start a #yellow;bold; Discredit Campaign#! on a [concept_leader]."
+  alert_no_discredit_campaign_in_use_hint: "Open the Politics panel and use this Interaction to #red;bold; Decrease#! the IG power and attraction."
+  alert_no_discredit_campaign_in_use_action: "Government Panel"
+  
+  #################### CHARACTER INTERACTION: TOOLTIPS ON INTERACTION ####################
+  #grant_leadership_to_politician:0 "Grant Party Leadership"
+  resign_from_office_politician:0 "Resign Party Leadership"  
+  resign_from_office_politician_tt: "This character will abandon the party leadership, leaving another character to lead the interest group. The ideology of the new leader will depend on the pressure the interest group receives from Political Movements."  
+  resign_from_office_politician_2_tt: "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] will abandon the Party's Leadership" 
+  
+  #################### CHARACTER INTERACTION: IDEOLOGY TOOLTIPS ####################
+  ideology_moderate_tt: "A [GetIdeology('ideology_moderate').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_reformer_tt: "A [GetIdeology('ideology_reformer').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_liberal_leader_tt: "A [GetIdeology('ideology_liberal_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_radical_tt: "A [GetIdeology('ideology_radical').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_pacifist_tt: "A [GetIdeology('ideology_pacifist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_communist_tt: "A [GetIdeology('ideology_communist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_royalist_tt: "A [GetIdeology('ideology_royalist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_traditionalist_tt: "A [GetIdeology('ideology_traditionalist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_market_liberal_tt: "A [GetIdeology('ideology_market_liberal').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_sovereignist_leader_tt: "A [GetIdeology('ideology_sovereignist_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_social_democrat_tt: "A [GetIdeology('ideology_social_democrat').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_authoritarian_tt: "A [GetIdeology('ideology_authoritarian').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_corporatist_leader_tt: "A [GetIdeology('ideology_corporatist_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_land_reformer_tt: "A [GetIdeology('ideology_land_reformer').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_ethno_nationalist_tt: "A [GetIdeology('ideology_ethno_nationalist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_theocrat_tt: "A [GetIdeology('ideology_theocrat').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_jingoist_leader_tt: "A [GetIdeology('ideology_jingoist_leader').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_protectionist_tt: "A [GetIdeology('ideology_protectionist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_integralist_tt: "A [GetIdeology('ideology_integralist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_slaver_tt: "A [GetIdeology('ideology_slaver').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_luddite_tt: "A [GetIdeology('ideology_luddite').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]."
+  ideology_vanguardist_tt: "A [GetIdeology('ideology_vanguardist').GetName] [concept_politician] will assume leadership of the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName]." 
+
+  #################### CHARACTER INTERACTION: TECHNOLOGY TOOLTIP ####################
+  socialism_vanguardist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('socialism').GetName] a new [GetIdeology('ideology_vanguardist').GetName] [concept_politician] Will be available." 
+  socialism_communist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('socialism').GetName] a new [GetIdeology('ideology_communist').GetName] [concept_politician] Will be available." 
+  labor_movement_social_democrat_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('labor_movement').GetName] a new [GetIdeology('ideology_social_democrat').GetName] [concept_politician] Will be available." 
+  ethno_nationalist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('nationalism').GetName] a new [GetIdeology('ideology_ethno_nationalist').GetName] [concept_politician] Will be available." 
+  corporatist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('corporatism').GetName] a new [GetIdeology('ideology_corporatist_leader').GetName] [concept_politician] Will be available." 
+  ideology_market_liberal_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('stock_exchange').GetName] a new [GetIdeology('ideology_market_liberal').GetName] [concept_politician] Will be available." 
+  ideology_protectionist_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('stock_exchange').GetName] a new [GetIdeology('ideology_protectionist').GetName] [concept_politician] Will be available." 
+  ideology_liberal_leader_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('egalitarianism').GetName] a new [GetIdeology('ideology_liberal_leader').GetName] [concept_politician] Will be available." 
+  ideology_radical_technology_tt: "A random Leader will arise. After you unlock [GetTechnology('egalitarianism').GetName] a new [GetIdeology('ideology_radical').GetName] [concept_politician] Will be available." 
+  
+  #################### CHARACTER INTERACTION: TITLE INTERACTION ####################
+  found_movement: "Found a Political Movement" 
+  
+  politician_progaganda_campaign_pro: "Start a Propaganda Campaign"  
+  politician_progaganda_campaign_against: "Start a Discredit Campaign"
+  politician_progaganda_campaign_agitator_activism: "Organize a Demonstration"    
+ 
+  politician_progaganda_campaign_pro_tt: "Start a propaganda campaign to increase the popularity of this character, depending on the efforts of the campaign, the outcome will be more or less impactful."  
+  politician_progaganda_campaign_against_tt: "Start a propaganda campaign to discredit this character, depending on the efforts of the campaign, the outcome will be more or less impactful."  
+  politician_progaganda_campaign_agitator_activism_tt: "Organizes a political demonstration in the squares of the main cities, increasing the support and activism of the movement."
+  
+  #################### MODIFIERS ####################
+  great_revision_politician_progaganda_campaign_pro_alert:0 "Used Propaganda Campaign"
+  great_revision_politician_progaganda_campaign_against_alert:0 "Used Discrediting Campaign"
+  
+  great_revision_politician_progaganda_campaign_pro:0 "Propaganda Campaign"
+  great_revision_politician_progaganda_campaign_against:0 "Discrediting Campaign"
+  
+  great_revision_politician_progaganda_campaign_pro_success_1:0 "Orator of the Masses"
+  great_revision_politician_progaganda_campaign_pro_success_interest_group_1:0 "Orator of the Masses"
+  
+  great_revision_politician_progaganda_campaign_pro_success_2:0 "Political Operator"
+  great_revision_politician_progaganda_campaign_pro_success_interest_group_2:0 "Political Operator"
+  
+  great_revision_politician_progaganda_campaign_pro_success_3:0 "Conflicting Speech"
+  great_revision_politician_progaganda_campaign_pro_success_interest_group_3:0 "Conflicting Speech"
+  great_revision_politician_progaganda_campaign_pro_success_legittimacy:0 "Abuse of Office Powers"
+  
+  great_revision_politician_progaganda_campaign_against_success_1:0 "Character Discredited"
+  great_revision_politician_progaganda_campaign_against_success_interest_group_1:0 "Character Discredited"
+  
+  great_revision_politician_progaganda_campaign_against_success_2:0 "Mud Machine"
+  great_revision_politician_progaganda_campaign_against_success_interest_group_2:0 "Mud Machine"
+  
+  great_revision_politician_progaganda_campaign_agitator_activism:0 "Political Activist"
+  great_revision_politician_progaganda_campaign_political_movement_activism_1:0 "Movement Bolstered"
+  great_revision_politician_progaganda_campaign_political_movement_activism_2:0 "Political Agitation"
+  
+  #################### EVENTS ####################
+  politician_progaganda_campaign.1:0 "The Propaganda Campaign"
+  politician_progaganda_campaign.1.t:0 "The Propaganda Campaign"
+  politician_progaganda_campaign.1.desc:0 "The Propaganda Campaign"
+  politician_progaganda_campaign.1.d:0 "The Campaign to increase the popularity of [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] is started. Now we have to choose whether to pursue a proactive path, or a more aggressive strategy."
+  politician_progaganda_campaign.1.f:0 "'That's exactly it, my friend. I say it here and I don't deny it here, [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] is the politician we need, the right man at the right time!'\n\n\"Isn't he a little too exuberant to take the reins of the party?'\n\n\'Why on earth do you say that?'\n\n\'Friend... the other day he literally began by saying: I will lead MY party to greatness, leading our nation... for the good of the Empire... er, I meant, of the Republic..'"
+  politician_progaganda_campaign.1.a:0 "Let [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] use his dialectic to speak to the crowd."
+  politician_progaganda_campaign.1.b:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] must focus his speech on the problems that afflict our country."
+  politician_progaganda_campaign.1.c:0 "Use the speech of [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] to strengthen the influence of our party in government, even if this were to be seen as an act of force."
+  
+  politician_progaganda_campaign_country.1:0 "The Party loses credibility"
+  politician_progaganda_campaign_country.1.t:0 "The Party loses credibility"
+  politician_progaganda_campaign_country.1.desc:0 "The Party loses credibility"
+  politician_progaganda_campaign_country.1.d:0 "The Campaign to increase the popularity of [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] worked, but the abuse of our political influence led the party to lose credibility with public opinion."
+  politician_progaganda_campaign_country.1.f:0 "'That's exactly it, my friend. I say it here and I don't deny it here, [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] is the politician we need, the right man at the right time!'\n\n\"Isn't he a little too exuberant to take the reins of the party?'\n\n\'Why on earth do you say that?'\n\n\'Friend... the other day he literally began by saying: I will lead MY party to greatness, leading our nation... for the good of the Empire... er, I meant, of the Republic..'"
+  politician_progaganda_campaign_country.1.a:0 "A small price to secure our power.."
+  
+  politician_progaganda_campaign.2:0 "The Discredit Campaign"
+  politician_progaganda_campaign.2.t:0 "The Discredit Campaign"
+  politician_progaganda_campaign.2.desc:0 "The Discredit Campaign"
+  politician_progaganda_campaign.2.d:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] has become too uncomfortable a character for our country, the time has come to ensure that he no longer has such a following."
+  politician_progaganda_campaign.2.f:0 "Mud, Mud, Mud, I LOVE Mud, especially when I throw it in people's faces."
+  politician_progaganda_campaign.2.a:0 "Let's start a smear campaign against [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName]."
+  politician_progaganda_campaign.2.b:0 "It's not enough! Make sure that even his Mother doesn't want to have anything to do with him anymore!"
+  
+  politician_progaganda_campaign.3:0 "The Revolutionary Campaign"
+  politician_progaganda_campaign.3.t:0 "The Revolutionary Campaign"
+  politician_progaganda_campaign.3.desc:0 "The Revolutionary Campaign"
+  politician_progaganda_campaign.3.d:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] agitated the masses against the established order, hoping to change the political direction of the Country."
+  politician_progaganda_campaign.3.f:0 "'What is all that crowd gathered under the government building?'\n\n\'Let it go, it will be a new parade for the eve of the national holiday, we have more important things to think about'\n\n\'Well, it will be.. But all those red flags don't convince me...'"
+  politician_progaganda_campaign.3.a:0 "Let's make sure [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] gets enough support to file a petition to the Government."
+  politician_progaganda_campaign.3.b:0 "This is no time for moderation, the revolution is coming! and we will lead it!"
+  
+  politician_progaganda_campaign.4:0 "The Political Movement"
+  politician_progaganda_campaign.4.t:0 "The Political Movement"
+  politician_progaganda_campaign.4.desc:0 "The Political Movement"
+  politician_progaganda_campaign.4.d:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName]'s political activism has managed to gather support from a good part of the population. Now we must decide whether to unite the crowds under a new movement, or reap the fruits of this campaign."
+  politician_progaganda_campaign.4.f:0 "'What is all that crowd gathered under the government building?'\n\n\'Let it go, it will be a new parade for the eve of the national holiday, we have more important things to think about'\n\n\'Well, it will be.. But all those red flags don't convince me...'"
+  politician_progaganda_campaign.4.a:0 "The Political Campaign has begun!"
+  politician_progaganda_campaign.4.b:0 "The party will benefit from it!"
+  
+  politician_progaganda_campaign.5:0 "The new Party Leader"
+  politician_progaganda_campaign.5.t:0 "The new Party Leader"
+  politician_progaganda_campaign.5.desc:0 "The new Party Leader"
+  politician_progaganda_campaign.5.d:0 "[SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName]'s continued failures have led the party to no longer support the current political direction. The most influential members are calling for a change in leadership."
+  politician_progaganda_campaign.5.f:0 "The party had called an extraordinary assembly to decide who would lead the group into a new political direction, but not all members were in unanimous agreement, and different wings of the party wanted to take a specific direction.\n\n\Who would lead the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName] into its next political era?"
+  politician_progaganda_campaign.5.a:0 "The system will be reformed by the #yellow;bold; Radical Wing#!"
+  politician_progaganda_campaign.5.b:0 "The #yellow;bold; Reformist Wing#! will lead the Party!"
+  politician_progaganda_campaign.5.c:0 "We need a moderate and #yellow;bold; Centrist#! Leadership."
+  politician_progaganda_campaign.5.g:0 "The #yellow;bold; Conservative Wing#! will restore Order and Stability."
+  politician_progaganda_campaign.5.e:0 "It is now time for a #yellow;bold; Reactionary#! leadership!"  
+  
+  
+
+
+
+
+

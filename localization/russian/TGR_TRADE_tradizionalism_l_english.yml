@@ -1,0 +1,35 @@
+﻿l_russian: 
+ 
+  ########################### EVENTS ########################### 
+  ai_tradizionalism_event.1:0 "The new Era of Modernization"
+  ai_tradizionalism_event.1.t:0 "The new Era of Modernization"
+  ai_tradizionalism_event.1.d:0 "The Representatives of the production sectors are discussing our proposed law. Depending on the outcome, we may or may not have to find a compromise."
+  ai_tradizionalism_event.1.f:0 "'I don't know my friend. Here everyone likes or dislikes something. Are you sure that we'll be able to get bourgeois pigs to agree?'\n\n'Don't worry, as the wise man says - Morality fails when the smell of big bucks is stronger than morality itself'."
+  ai_tradizionalism_event.1.a:0 "I'm the AI and i say YES!"
+  ai_tradizionalism_event.1.b:0 "We'll support #yellow; Interventism#!"
+  ai_tradizionalism_event.1.c:0 "We'll support #yellow; Agrarianism#!"
+  ai_tradizionalism_event.1.e:0 "The smell of the big bucks wasn't strong enough.."
+
+  ########################### JOURNAL ENTRIES  #######################################
+  modernize_russia_je:0 "Modernize Russia"
+  modernize_russia_je_status:0 "Meanwhile other Nations are embracing the Industrial Revolution, #yellow; Russia#! is still blocked in an archaic #yellow; Economic System#!. If we do not do something, the backwardness of our Economy will destroy our Motherland and the prestige of the Tsardom."
+  modernize_russia_je_reason:0 "The first step to modernize our Country is to create the foundation to allow #yellow; Private Sector#! to invest money in our Economy. If leave full freedom or impose our restriction, is up on us."
+
+  modernize_ottoman_empire_je:0 "Modernize Ottoman Empire"
+  modernize_ottoman_empire_je_status:0 "Meanwhile other Nations are embracing the Industrial Revolution, #yellow; Ottoman Empire#! is still blocked in an archaic #yellow; Economic System#!. If we do not do something, the backwardness of our Economy will destroy Motherland and the prestige of the Sublime Door."
+  modernize_ottoman_empire_je_reason:0 "The first step to modernize our Country is to create the foundation to allow #yellow; Private Sector#! to invest money in our Economy. If leave full freedom or impose our restriction, is up on us."
+
+  ########################### JOURNAL ENTRIES: BUTTONS #######################################
+  modernize_russia_button: "Propose a new Economic Law"
+  modernize_russia_button_desc: "We will sign a new draft law to propose the modernization of our Country. Depending on the proposed changes, the law could be more or less contested."
+
+  modernize_ottoman_empire_button: "Propose a new Economic Law"
+  modernize_ottoman_empire_button_desc: "We will sign a new draft law to propose the modernization of our Country. Depending on the proposed changes, the law could be more or less contested."
+ 
+  ########################### JOURNAL ENTRIES: TOOLTIP #######################################
+  tgr_usa_border_adjustment_button_tt: "If other Countries owns some of our #yellow; Claimed Territories#! we can send them a diplomatic request to ask to give us back."
+
+  ########################### MODIFIERS #######################################
+  bribe_politicians_interventionism: "Oil the Machine"
+  bribe_politicians_agrarianism: "Oil the Machine"
+  

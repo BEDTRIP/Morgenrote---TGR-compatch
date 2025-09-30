@@ -1,0 +1,16 @@
+﻿l_russian:
+
+  #################### TREATY ####################
+  diplomatic_embassy: "Diplomatic Embassy"
+  diplomatic_embassy_desc: "A [concept_treaty] [concept_article] established by one [concept_country] targeting another, where the two $concept_country$ enstablish a diplomatic office to improve their relationship."
+  diplomatic_embassy_article_short_desc: "Establish a Diplomatic Embassy between the two [concept_country]"
+  
+  concept_diplomatic_embassy: "Diplomatic Embassy"
+  concept_diplomatic_embassy_desc: "A [concept_treaty] [concept_article] established by one [concept_country] targeting another, where the two $concept_country$ enstablish a diplomatic office to improve their relationship."
+  
+  
+
+
+
+
+

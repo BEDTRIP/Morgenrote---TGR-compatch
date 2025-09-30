@@ -1,0 +1,72 @@
+﻿l_russian: 
+
+  ########################### MODIFIERS ###########################
+  great_revision_usa_manifest_destiny:0 "Manifest Destiny"
+  
+  great_revision_usa_civil_war_usa:0 "The American Civil War"
+  great_revision_usa_civil_war_csa:0 "The American Civil War"
+  
+  great_revision_rsm_indipendence_war:0 "The Italian Indipendence War"
+  great_revision_aus_indipendence_war:0 "The Italian Indipendence War"
+  
+  great_revision_fra_revolution_war_secessionist:0 "French Revolution: Disorganized Army"
+  great_revision_fra_revolution_war_lealist:0 "French Revolution: Lealist Fervor"
+  
+  great_revision_chi_revolution_war_secessionist:0 "Heavenly Kindgod War: Disorganized Army"
+  great_revision_chi_revolution_war_lealist:0 "Heavenly Kindgod War: Lealist Fervor"
+  
+  great_revision_great_powers_revolution_war_secessionist:0 "Civil War: Disorganized Army"
+  
+  great_revision_jap_restauration:0 "Honorable Restoration"
+  great_revision_jap_restauration_interest_group:0 "Honorable Restoration"
+  
+  usa_consolidated_borders:0 "Consolidation of United States borders"
+  mex_consolidated_borders:0 "Consolidation of Mexican borders"
+  tur_consolidated_borders:0 "Consolidation of Ottomans borders"
+  egy_consolidated_borders:0 "Consolidation of Egyptian borders"
+  mol_consolidated_borders:0 "Consolidation of Romanian borders"
+  
+  ########################### BUILDING MODIFIERS ###########################
+  building_group_bg_construction_throughput_add:0 "$bg_construction$ [concept_throughput]"
+  building_group_bg_construction_throughput_add:0 "A bonus or penalty to both input and output of $bg_construction$"
+  
+  ########################### EVENTS ###########################
+  
+  great_revision_events.5:0 "The Mexican-American War"
+  great_revision_events.5.t:0 "The Mexican-American War"
+  great_revision_events.5.d:0 "We must expand throughout the American West, this is the destiny of the American people, and nothing will overlap with us, not even the Mexicans!"
+  great_revision_events.5.f:0 "'Today, my brave compatriots, is our moment! Ever since we threw off the yoke of the British, we have understood that there was only one nation that deserves to control the Americas! And that nation is us! Onward, ready to embrace our destiny!'"
+  great_revision_events.5.a:0 "Let's export some Democracy!"
+  
+  great_revision_events.10:0 "The US Government claims Western territories"
+  great_revision_events.10.t:0 "The US Government claims Western territories"
+  great_revision_events.10.d:0 "The United States Government has sent a diplomatic delegation to end the border dispute with the Western territories. They expect our response soon."
+  great_revision_events.10.f:0 "'These damn Yankees. They want to export 'democracy' again?'"
+  great_revision_events.10.a:0 "War is not an option, let's accept the US request"
+  
+  great_revision_events.11:0 "The Mexican Government claims Western territories"
+  great_revision_events.11.t:0 "The Mexican Government claims Western territories"
+  great_revision_events.11.d:0 "The Mexican Government has sent a diplomatic delegation to end the border dispute with the Northen territories. They expect our response soon."
+  great_revision_events.11.f:0 "'These Mexicans. They really will be ready to go to War?..'"
+  great_revision_events.11.a:0 "War is not an option, let's accept the US request"
+
+  ########################### JOURNAL ENTRIES  #######################################
+  tgr_usa_border_adjustment:0 "US Borders Reclamation"
+  tgr_usa_border_adjustment_status:0 "The borders of the United States claimed by #yellow; Manifest Destiny#! are still in dispute. Perhaps we can solve the problem through a diplomatic approach, without the need to go to war."
+  tgr_usa_border_adjustment_reason:0 "Having reclaimed the Western territories, we can send diplomats to our neighbors to try to resolve the remaining border disputes. If they refuse to return our rightful territories, their #red;bold; diplomatic price#! will be very high."
+
+  tgr_mexico_border_adjustment:0 "Mexican Borders Reclamation"
+  tgr_mexico_border_adjustment_status:0 "The borders of Mexico are still in dispute. Perhaps we can solve the problem through a diplomatic approach, without the need to go to war."
+  tgr_mexico_border_adjustment_reason:0 "Having reclaimed the territories of Central America, we can send diplomats to our neighbors to try to resolve the remaining border disputes. If they refuse to return our rightful territories, their #red;bold; diplomatic price#! will be very high."
+
+  ########################### JOURNAL ENTRIES: BUTTONS #######################################
+  tgr_usa_border_adjustment_button: "Claim US Territories"
+  tgr_usa_border_adjustment_button_desc: "We will send diplomatic delegations to all nations that still hold the disputed territories, demanding that they return them to the United States Government."
+
+  tgr_mexico_border_adjustment_button: "Claim Mexican Territories"
+  tgr_mexico_border_adjustment_button_desc: "We will send diplomatic delegations to all nations that still hold the disputed territories, demanding that they return them to the Mexican Government."
+ 
+  ########################### JOURNAL ENTRIES: TOOLTIP #######################################
+  tgr_usa_border_adjustment_button_tt: "If other Countries owns some of our #yellow; Claimed Territories#! we can send them a diplomatic request to ask to give us back."
+
+  
