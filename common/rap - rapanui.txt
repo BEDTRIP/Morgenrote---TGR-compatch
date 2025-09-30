@@ -1,0 +1,4 @@
+COUNTRIESCOUNTRIES = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\history\countries\rap - rapanui.txt
+# variant_from_TGR = ~\The great revision\common\history\countries\fra - france.txt
+

@@ -1,0 +1,32 @@
+else = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 103
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_TAX_PANEL_script_values.txt : 310
+
+divide = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 98
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_LOANS_script_values.txt : 19
+
+limit = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 51
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_TAX_PANEL_script_values.txt : 4
+
+OR = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 253
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_TAX_PANEL_script_values.txt : 178
+
+add = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 10
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_LOANS_script_values.txt : 16
+
+if = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 50
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_TAX_PANEL_script_values.txt : 3
+
+multiply = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 99
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_LOANS_script_values.txt : 9
+
+value = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\academics_script_values.txt : 9
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_LOANS_script_values.txt : 2
+

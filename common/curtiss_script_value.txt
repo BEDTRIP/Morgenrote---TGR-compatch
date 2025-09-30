@@ -1,0 +1,4 @@
+round = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\curtiss_script_value.txt : 1347
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_LOANS_script_values.txt : 10
+

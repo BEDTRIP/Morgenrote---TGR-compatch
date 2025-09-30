@@ -1,0 +1,13 @@
+{
+  "name" : "Morgenrote + TGR compatch",
+	"id" : "",
+  "version" : "0.1.0",
+  "supported_game_version" : "1.10.*",
+  "picture" : "thumbnail.png",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

@@ -1,0 +1,12 @@
+on_yearly_pulse_country = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\on_actions\academics_on_actions.txt : 84
+# variant_from_TGR = ~\The great revision\common\on_actions\TGR_ADJUSTMENTS_code_on_actions.txt : 17
+
+on_half_yearly_pulse_country = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\on_actions\academics_on_actions.txt : 29
+# variant_from_TGR = ~\The great revision\common\on_actions\TGR_DECREES_on_actions.txt : 1
+
+on_monthly_pulse_country = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\on_actions\academics_on_actions.txt : 9
+# variant_from_TGR = ~\The great revision\common\on_actions\TGR_ADJUSTMENTS_code_on_actions.txt : 5
+

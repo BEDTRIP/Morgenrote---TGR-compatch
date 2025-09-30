@@ -1,0 +1,4 @@
+STATESSTATES = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\history\states\mr_states.txt
+# variant_from_TGR = ~\The great revision\common\history\states\00_states.txt
+

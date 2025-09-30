@@ -1,0 +1,4 @@
+namespace = ???
+# variant_from_Morgenrote = ~\Morgenrote\events\mr_events.txt
+# variant_from_TGR = ~\The great revision\events\TGR_ADJUSTMENTS_events.txt
+

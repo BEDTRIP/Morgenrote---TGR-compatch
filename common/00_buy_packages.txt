@@ -1,0 +1,396 @@
+wealth_83 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1344
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1168
+
+wealth_51 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 832
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 720
+
+wealth_92 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1488
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1294
+
+wealth_33 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 525
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 449
+
+wealth_56 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 912
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 790
+
+wealth_87 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1408
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1224
+
+wealth_81 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1312
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1140
+
+wealth_65 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1056
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 916
+
+wealth_30 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 470
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 401
+
+wealth_49 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 800
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 692
+
+wealth_71 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1152
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1000
+
+wealth_17 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 219
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 189
+
+wealth_54 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 880
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 762
+
+wealth_99 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1600
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1392
+
+wealth_73 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1184
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1028
+
+wealth_80 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1296
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1126
+
+wealth_96 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1552
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1350
+
+wealth_74 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1200
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1042
+
+wealth_12 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 134
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 119
+
+wealth_43 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 702
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 606
+
+wealth_85 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1376
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1196
+
+wealth_24 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 350
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 299
+
+wealth_9 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 88
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 81
+
+wealth_35 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 561
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 481
+
+wealth_3 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 21
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 23
+
+wealth_48 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 784
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 678
+
+wealth_26 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 390
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 333
+
+wealth_21 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 290
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 248
+
+wealth_52 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 848
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 734
+
+wealth_62 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1008
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 874
+
+wealth_94 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1520
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1322
+
+wealth_20 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 270
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 231
+
+wealth_41 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 668
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 576
+
+wealth_68 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1104
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 958
+
+wealth_8 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 76
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 71
+
+wealth_46 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 752
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 650
+
+wealth_89 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1440
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1252
+
+wealth_28 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 430
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 367
+
+wealth_23 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 330
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 282
+
+wealth_59 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 960
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 832
+
+wealth_37 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 597
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 513
+
+wealth_61 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 992
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 860
+
+wealth_19 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 253
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 217
+
+wealth_1 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 5
+
+wealth_82 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1328
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1154
+
+wealth_6 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 52
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 51
+
+wealth_67 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1088
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 944
+
+wealth_79 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1280
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1112
+
+wealth_57 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 928
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 804
+
+wealth_98 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1584
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1378
+
+wealth_93 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1504
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1308
+
+wealth_39 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 633
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 545
+
+wealth_32 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 507
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 433
+
+wealth_50 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 816
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 706
+
+wealth_16 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 202
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 175
+
+wealth_44 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 719
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 621
+
+wealth_14 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 168
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 147
+
+wealth_70 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1136
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 986
+
+wealth_86 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1392
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1210
+
+wealth_64 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1040
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 902
+
+wealth_4 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 31
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 32
+
+wealth_72 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1168
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1014
+
+wealth_76 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1232
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1070
+
+wealth_91 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1472
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1280
+
+wealth_90 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1456
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1266
+
+wealth_55 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 896
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 776
+
+wealth_13 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 151
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 133
+
+wealth_84 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1360
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1182
+
+wealth_27 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 410
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 350
+
+wealth_66 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1072
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 930
+
+wealth_97 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1568
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1364
+
+wealth_34 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 543
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 465
+
+wealth_75 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1216
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1056
+
+wealth_42 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 685
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 591
+
+wealth_40 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 651
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 561
+
+wealth_58 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 944
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 818
+
+wealth_95 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1536
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1336
+
+wealth_36 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 579
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 497
+
+wealth_25 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 370
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 316
+
+wealth_77 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1248
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1084
+
+wealth_15 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 185
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 161
+
+wealth_18 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 236
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 203
+
+wealth_2 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 11
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 14
+
+wealth_69 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1120
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 972
+
+wealth_11 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 117
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 105
+
+wealth_47 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 768
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 664
+
+wealth_29 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 450
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 384
+
+wealth_5 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 41
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 41
+
+wealth_60 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 976
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 846
+
+wealth_10 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 100
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 91
+
+wealth_53 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 864
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 748
+
+wealth_38 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 615
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 529
+
+wealth_31 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 489
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 417
+
+wealth_22 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 310
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 265
+
+wealth_63 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1024
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 888
+
+wealth_7 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 64
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 61
+
+wealth_45 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 736
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 636
+
+wealth_88 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1424
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1238
+
+wealth_78 = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\buy_packages\00_buy_packages.txt : 1264
+# variant_from_TGR = ~\The great revision\common\buy_packages\00_buy_packages.txt : 1098
+

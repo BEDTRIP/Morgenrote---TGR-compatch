@@ -1,0 +1,4 @@
+BUILDINGSBUILDINGS = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\history\buildings\elgar_opera.txt
+# variant_from_TGR = ~\The great revision\common\history\buildings\TGR_TRADE_net_setup.txt
+

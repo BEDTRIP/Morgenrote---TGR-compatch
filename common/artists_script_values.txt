@@ -1,0 +1,4 @@
+has_law = ???
+# variant_from_Morgenrote = ~\Morgenrote\common\script_values\artists_script_values.txt : 437
+# variant_from_TGR = ~\The great revision\common\script_values\TGR_TAX_PANEL_script_values.txt : 5
+

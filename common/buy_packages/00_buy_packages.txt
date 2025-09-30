@@ -1,0 +1,4 @@
+FILE_CONFLICT same_path = common\buy_packages\00_buy_packages.txt
+# exists_in_Morgenrote = common\buy_packages\00_buy_packages.txt
+# exists_in_TGR = common\buy_packages\00_buy_packages.txt
+
