@@ -1,0 +1,5 @@
+l_english:
+ no_propaganda_campaign_in_use_setting_name:0 "No Propaganda Campaign in Use"
+ no_propaganda_campaign_in_use_setting_desc:0 "Warns when no Propaganda Campaign is active on any [concept_leader]."
+ no_discredit_campaign_in_use_setting_name:0 "No Discredit Campaign in Use"
+ no_discredit_campaign_in_use_setting_desc:0 "Warns when no Discredit Campaign is active on any [concept_leader]."

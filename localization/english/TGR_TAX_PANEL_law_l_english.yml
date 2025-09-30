@@ -1,0 +1,11 @@
+l_english:
+ law_consumption_based_taxation:0 "Consumption-Based Taxation"
+ law_consumption_based_taxation_desc:0 "A tax system where there are no direct income or per-capita taxes and instead revenue is raised through taxing the consumption of goods.\n\nTax Levels unlocked:\n- Consumption Tax Rate -> 100%\n- Land Tax Level -> 0£\n- Per Capita Tax Level -> 0£\n- Income Tax Rate -> 0%\n- Dividends Tax Rate -> 0%"
+ law_land_based_taxation:0 "Land-Based Taxation"
+ law_land_based_taxation_desc:0 "A traditional form of land-based taxation, collected mainly from the peasantry.\n\nTax Levels unlocked:\n- Consumption Tax Rate -> 75%\n- Land Tax Level -> 3£\n- Per Capita Tax Level -> 0£\n- Income Tax Rate -> 5%\n- Dividends Tax Rate -> 0%"
+ law_per_capita_based_taxation:0 "Per-Capita Taxation"
+ law_per_capita_based_taxation_desc:0 "A tax system that disproportionally taxes the poor through a combination of income and per-capita taxes.\n\nTax Levels unlocked:\n- Consumption Tax Rate -> 65%\n- Land Tax Level -> 2£\n- Per Capita Tax Level -> 3£\n- Income Tax Rate -> 25%\n- Dividends Tax Rate -> 0%"
+ law_proportional_taxation:0 "Proportional Taxation"
+ law_proportional_taxation_desc:0 "A mainly income-based tax system that tries to ensure everyone pays a roughly equal share of their income to the state.\n\nTax Levels unlocked:\n- Consumption Tax Rate -> 55%\n- Land Tax Level -> 1£\n- Per Capita Tax Level -> 2£\n- Income Tax Rate -> 55%\n- Dividends Tax Rate -> 35%"
+ law_graduated_taxation:0 "Graduated Taxation"
+ law_graduated_taxation_desc:0 "A tax system that aims to put the burden of taxation primarily on the well-to-do through high Dividends taxes.\n\nTax Levels unlocked:\n- Consumption Tax Rate -> 50%\n- Land Tax Level -> 0£\n- Per Capita Tax Level -> 1£\n- Income Tax Rate -> 50%\n- Dividends Tax Rate -> 60%"

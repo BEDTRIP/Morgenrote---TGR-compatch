@@ -1,0 +1,11 @@
+l_english:
+ # Fix event 1.f multi-quote content
+ politician_progaganda_campaign.1.f:0 "\"That's exactly it, my friend. I say it here and I don't deny it here, [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] is the politician we need, the right man at the right time!\"\n\n\"Isn't he a little too exuberant to take the reins of the party?\"\n\n\"Why on earth do you say that?\"\n\n\"Friend... the other day he literally began by saying: I will lead MY party to greatness, leading our nation... for the good of the Empire... er, I meant, of the Republic..\""
+ 
+ politician_progaganda_campaign_country.1.f:0 "\"That's exactly it, my friend. I say it here and I don't deny it here, [SCOPE.sCharacter('great_revision_propaganda_leader').GetFullName] is the politician we need, the right man at the right time!\"\n\n\"Isn't he a little too exuberant to take the reins of the party?\"\n\n\"Why on earth do you say that?\"\n\n\"Friend... the other day he literally began by saying: I will lead MY party to greatness, leading our nation... for the good of the Empire... er, I meant, of the Republic..\""
+ 
+ politician_progaganda_campaign.3.f:0 "\"What is all that crowd gathered under the government building?\"\n\n\"Let it go, it will be a new parade for the eve of the national holiday, we have more important things to think about\"\n\n\"Well, it will be.. But all those red flags don't convince me...\""
+ 
+ politician_progaganda_campaign.4.f:0 "\"What is all that crowd gathered under the government building?\"\n\n\"Let it go, it will be a new parade for the eve of the national holiday, we have more important things to think about\"\n\n\"Well, it will be.. But all those red flags don't convince me...\""
+ 
+ politician_progaganda_campaign.5.f:0 "The party had called an extraordinary assembly to decide who would lead the group into a new political direction, but not all members were in unanimous agreement, and different wings of the party wanted to take a specific direction.\n\nWho would lead the [SCOPE.gsInterestGroup('great_revision_propaganda_leader_party').GetName] into its next political era?"
